@@ -1,0 +1,174 @@
+html, body{
+    background-color: #8B6ED7;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0%;
+}
+
+#statusRow{
+    width: 50%;
+    height: 25%;
+    background-color: #240672;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid black;
+}
+
+#gameCover{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#gameRow{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.door{
+    margin-right: 1%;
+    width: 33%;
+    height: 100%;
+    background-color: #3E13AF;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.door:hover{
+    background-color: indigo;
+}
+
+.choiseDoor{
+    margin-right: 1%;
+    width: 33%;
+    height: 100%;
+    background-color: yellow;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.choiseDoor:hover{
+    background-color: orange;
+}
+
+img{
+    width: 33%;
+    height: 100%;
+}
+
+.leaderDoor{
+    margin-right: 1%;
+    width: 33%;
+    height: 100%;
+    background-color: #3E13AF;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    box-sizing: border-box;
+    cursor:default;    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#makeChoiseColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#dontMakeChoiseColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: indigo;
+    width: 100px;
+    height: 25px;
+    margin-bottom: 10%;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+#titleCounter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: indigo;
+    color: white;
+    width: 225px;
+    height: 25px;
+    margin-bottom: 5%;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+#allCounter1{
+    color: white;
+}
+
+#rightCounter1{
+    color: green;
+}
+
+#falseCounter1{
+    color: red;
+}
+
+#allCounter2{
+    color: white;
+}
+
+#rightCounter2{
+    color: green;
+}
+
+#falseCounter2{
+    color: red;
+}
+
+#refreshButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3E13AF;
+    width: 200px;
+    height: 50px;
+    border: 5px solid black;
+    color: white;
+}
+
+#refreshButton:hover{
+    background-color: indigo;
+    cursor: pointer;
+}

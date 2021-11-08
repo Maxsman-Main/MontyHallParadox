@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Парадокс Монти Холла</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="gameCover">
+            <div id="gameRow">
+                <div id="firstDoor" class="door">?</div>
+                <div id="secondDoor" class="door">?</div>
+                <div id="thirdDoor" class="door">?</div>
+            </div>
+            <div id="refreshButton" onclick="refreshGame()">Новый тест</div>
+            <div id="statusRow">
+                <div id ="makeChoiseColumn">
+                    <div id="titleCounter">Изначальный выбор изменен</div>
+                    <div id="allCounter1" class="counter">0</div>
+                    <div id="rightCounter1" class="counter">0</div>
+                    <div id="falseCounter1" class="counter">0</div>
+                </div>
+                <div id ="dontMakeChoiseColumn">
+                    <div id="titleCounter">Изначальный выбор не изменен</div>
+                    <div id="allCounter2" class="counter">0</div>
+                    <div id="rightCounter2" class="counter">0</div>
+                    <div id="falseCounter2" class="counter">0</div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    <script src="script.js"></script>
+</html>
